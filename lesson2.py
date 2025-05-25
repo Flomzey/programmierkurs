@@ -1,10 +1,4 @@
 # Ein Billa hat verschiedene Gänge ein produkt ist in einem Gang
-from traceback import format_list
-
-p0 = "Apfel"
-p1 = "Banane"
-
-
 
 g0 = "Obst"
 g1 = "Fleisch"
