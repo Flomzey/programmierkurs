@@ -8,6 +8,68 @@ g4 = "Kosmetik"
 g5 = "Getränke"
 g6 = "Gemüse"
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 billa = g0, g1, g2, g3, g4, g5, g6
 
-print(billa)
+for i in range(len(billa)):
+    if billa[i] == "Kosmetik":
+        print(i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,12 +1,11 @@
-x = "hello"
-y = "world"
-z = "mars"
-a = "jupiter"
-b = "merkur"
+n = 100
+ergebnis = 0
 
-#   1 2 3 4 5
-#   0 1 2 3 4
-c = x,y,z,a,b
+for i in range(n+1):
+    ergebnis = ergebnis + i
 
-for i in range(5):
-    print(c[i])
+print(ergebnis)
+
+ergebnis2 = (n*(n+1))/2
+
+print(ergebnis2)
